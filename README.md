@@ -42,7 +42,7 @@ install-package.yml
 
 ### Example
 ```
-ansible-inventory -i inventory/intern.ini --list
-ansible all -m ping -u sshuser -i inventory/intern.ini
-ansible-playbook -i inventory/intern.ini sudo.yml --limit lab03
+ansible-inventory -i inventory/lab.ini --list
+ansible all -m ping -u sshuser -i inventory/lab.ini
+ansible-playbook -i inventory/lab.ini sudo.yml --limit lab03
 ```
